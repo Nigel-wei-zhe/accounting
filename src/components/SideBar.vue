@@ -31,8 +31,14 @@ export default {
         {
           title: "記帳表單",
           caption: "送出表單,統計花費",
-          link: "/123",
+          link: "/accounting",
           icon: "request_quote"
+        },
+        {
+          title: "帳務紀錄",
+          caption: "統計表",
+          link: "/detail",
+          icon: "timeline"
         }
       ]
     };

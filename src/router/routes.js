@@ -2,9 +2,10 @@ const routes = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
+    redirect: 'accounting',
     children: [
-      { path: '', component: () => import('pages/Index.vue') },
-      { path: '123', component: () => import('pages/aaa.vue') },
+      { path: 'accounting', component: () => import('pages/Index.vue') },
+      { path: 'detail', component: () => import('pages/Detail.vue') },
     ],
   },
 

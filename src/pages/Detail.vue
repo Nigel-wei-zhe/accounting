@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    aaa
+    功能開發中~
   </q-page>
 </template>
 
