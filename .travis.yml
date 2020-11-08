@@ -17,7 +17,7 @@ script:
   - quasar build
 
 after_script:
-  - cd dist
+  - cd dist/spa
   - git init
   - git remote add origin https://${REF}
   - git add .

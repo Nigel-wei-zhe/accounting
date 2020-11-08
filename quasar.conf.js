@@ -9,7 +9,6 @@
 /* eslint func-names: 0 */
 /* eslint global-require: 0 */
 module.exports = function (/* ctx */) {
-  console.log(process.env.TEST)
   return {
     // https://quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
